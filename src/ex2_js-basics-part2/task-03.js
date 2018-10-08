@@ -1,4 +1,5 @@
-function MyFuncNul () {
+function MyFuncNul () 
+{
 	var h = 0
 	var g = 0
 	var y = 0
@@ -22,7 +23,7 @@ function MyFuncNul () {
 			
 	}
 					
-		
-	  console.log ( "четных: " + h + " нечетных: " + g + " нулей: " + y );
+		  console.log ( "четных: " + h + " нечетных: " + g + " нулей: " + y );
 	  console.log (NumberArr3 = [h, g, y]);	
-module.exports = MyFuncNul ();
+ };
+ module.exports = MyFuncNul ();
