@@ -25,4 +25,4 @@ function MyFuncNul () {
 		
 	  console.log ( "четных: " + h + " нечетных: " + g + " нулей: " + y );
 	  console.log (NumberArr3 = [h, g, y]);	
-module.exports = MyFuncNul;
+module.exports = MyFuncNul ();
