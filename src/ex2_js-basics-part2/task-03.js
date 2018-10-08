@@ -22,7 +22,7 @@ if ( NumberArr2 [i]  !== 0 ) {
 }
 				
 		
-  console.log( ("четных " + h) + ("нечетных " + g) + ("количество нулей " + y);
+  console.log( ("четных " + h) + ("нечетных " + g) + ("количество нулей " + y));
   
 }
 module.exports = MyFuncNul;
