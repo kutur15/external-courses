@@ -6,7 +6,7 @@ function MyFunc1 (n){
     else if (type1 === "string") 
     {return "string"; 
     } 
-    else { 
+    { 
     return undefined; 
     } 
     }
