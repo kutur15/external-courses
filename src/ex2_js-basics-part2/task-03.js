@@ -1,12 +1,13 @@
 var h = 0
 	var g = 0
 	var y = 0
+	var i
 	var NumberArr3 = [];
 	var NumberArr2 = [1, 2, 3, 4];
 function MyFuncNul () 
 {
 	
-	for (var i = 0; i <= ( NumberArr2.length - 1); i++) {
+	for (i = 0; i <= ( NumberArr2.length - 1); i++) {
 	if ( NumberArr2 [i] !== 0 ) {
 			if (( NumberArr2 [i] % 2 ) == 0 ) {
 		h = h + 1
