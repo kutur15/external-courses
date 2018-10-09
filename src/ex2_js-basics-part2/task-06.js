@@ -1,5 +1,5 @@
 var n = 18
-function MyFuncSimple ()
+function MyFuncSimple () {
 
 if (n <= 1000) {
 if ( n % 2 !== 0 ){
@@ -10,4 +10,5 @@ if ( n % 2 !== 0 ){
 
 }
     else { console.log("данные неверны");}
+}
     module.exports = MyFuncSimple ();
