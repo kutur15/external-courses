@@ -1,16 +1,20 @@
 var i
 var j
+var NumberArr4
+var n
 function FuncUnic () {
-    var NumberArr4 = [1, 2];
-    var n = NumberArr4.length;
+    NumberArr4[0, 1];
+    n = NumberArr4.length;
     for (i = 0; i < n-1; i++)
     {for (j = i+1; j < n; j++)
  { if (NumberArr4[i] === NumberArr4[j]) {
     
-    return console.log(true); }
+    return true; }
     }
     
-    return console.log(false);
+    return false;
     console.log(n);
 }
-module.exports = FuncUnic ();}
+
+};
+module.exports = FuncUnic ();

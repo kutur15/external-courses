@@ -3,17 +3,16 @@ var h = 0
 	var y = 0
 	var i
 	var NumberArr3 = [];
-	var NumberArr2 = [1, 2, 3, 4];
-function MyFuncNul () 
-{
+	var NumberArr2 = [1, 2, 8];
+function MyFuncNul () {
 	
 	for (i = 0; i <= ( NumberArr2.length - 1); i++) {
 	if ( NumberArr2 [i] !== 0 ) {
-			if (( NumberArr2 [i] % 2 ) == 0 ) {
+			if ( NumberArr2 [i] % 2  == 0 && (NumberArr2 [i] > 0) ) {
 		h = h + 1
 			
 		}
-		else {
+		else if  (NumberArr2 [i] > 0) { 
 		g = g + 1
 		}
 				
@@ -24,7 +23,10 @@ function MyFuncNul ()
 			
 	}
 					
-		  console.log ( "четных: " + h + " нечетных: " + g + " нулей: " + y );
+		 // console.log ( "четных: " + h + " нечетных: " + g );
+		 console.log ( "четных: " + h + " нечетных: " + g + " нулей: " + y );
 	  console.log (NumberArr3 = [h, g, y]);	
- };
- module.exports = MyFuncNul ();
+ 
+ 
+};
+module.exports = MyFuncNul ();
