@@ -8,7 +8,7 @@ function MyFuncNul () {
 	
 	for (i = 0; i <= ( NumberArr2.length - 1); i++) {
 	if ( NumberArr2 [i] !== 0 ) {
-		if ( NumberArr2 [i] % 2 == 0 && (NumberArr2 [i] > 0) ) {
+		if ( NumberArr2 [i] % 2 === 0 && (NumberArr2 [i] > 0) ) {
 		h = h + 1
 			
 		}

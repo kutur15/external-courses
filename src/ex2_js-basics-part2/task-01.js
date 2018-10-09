@@ -6,8 +6,8 @@ function MyFunc1 (n){
     else if (type1 === "string") 
     {return "string"; 
     } 
-    { 
+    
     return undefined; 
-    } 
+    
     }
     module.exports = MyFunc1;
