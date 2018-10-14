@@ -1,8 +1,8 @@
 var obj = {};
+var key
 obj.a = 1;
 obj.b = "phone";
 obj.c = null;
-var key
 function MyFunc1 (obj){
 
     for (key in obj) {
@@ -10,3 +10,4 @@ function MyFunc1 (obj){
     }
 
 };
+module.exports = MyFunc1 ();
