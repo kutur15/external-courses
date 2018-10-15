@@ -1,8 +1,8 @@
 
 function MyFunc1 (n,obj){
-
-if(n in obj) return obj;
-obj[n] = 'new';
-return obj;
-};
+var result = obj;
+if(n in result) {return result;}
+result[n] = 'new';
+return result;
+}
 module.exports = MyFunc1;
