@@ -1,5 +1,6 @@
-function MyFunc1 (obj){
 var clone = []
+function MyFunc1 (obj){
+
     for (var key in obj) {
         clone[key] = obj[key];
       }
