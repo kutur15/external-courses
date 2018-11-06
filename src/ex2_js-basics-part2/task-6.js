@@ -1,5 +1,5 @@
 'use strict'
-function taskSix (n) {
+function taskSx (n) {
   var x = 0
   var i = 1
   if (n <= 1000 && n > 0) {
@@ -11,4 +11,4 @@ function taskSix (n) {
   }
   return 'Данные неверны'
 }
-module.exports = taskSix
+module.exports = taskSx

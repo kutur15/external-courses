@@ -1,5 +1,5 @@
 'use strict'
-function mxElement(arr) {
+function maxElement(arr) {
     var max = arr[0]
     var i = 0
     for (i; i < arr.length; i++) {
@@ -9,4 +9,4 @@ function mxElement(arr) {
     }
     return max
 }
-module.exports = mxElement
+module.exports = maxElement
